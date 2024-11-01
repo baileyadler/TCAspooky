@@ -15,5 +15,19 @@ html{
     animation:swing 2s infinite;
     transform-origin:top;
 }
-
-/*CONTINUE FROM 2 MINUTES INTO VIDEO*/
+.spider .body {
+width:100px;
+height:80px;
+background:#000;
+position:relative;
+border-radius: 50%;
+}
+.spider .body .eye{
+    width:33px;
+    height:33px;
+    background: #fff;
+    position:absolute;
+    bottom:20px;
+    border-radius:50%;
+}
+/*CONTINUE FROM 2:51 MINUTES INTO VIDEO*/
