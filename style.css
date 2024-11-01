@@ -1,0 +1,19 @@
+html{
+    background-color: #ff785a;
+}
+.spiderweb{
+    background-color: #fff;
+    width:2px;
+    height:200px;
+    margin-left: 49px;
+}
+.spider{
+    position:absolute;
+    display:inline-block;
+    top:0;
+    left:30%;
+    animation:swing 2s infinite;
+    transform-origin:top;
+}
+
+/*CONTINUE FROM 2 MINUTES INTO VIDEO*/
