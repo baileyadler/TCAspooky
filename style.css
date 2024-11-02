@@ -22,23 +22,24 @@ html:hover .spider{
 .spider .body {
 width:100px;
 height:80px;
-background:#000;
+background:#000000;
 position:relative;
 border-radius: 60%; /* made the body more circular*/
 }
 .spider .body .eye{
     width:33px;
     height:33px;
-    background: #fff;
+    background: #e6eba3; /* changed the eye color */
     position:absolute;
     bottom:20px;
     border-radius:50%;
 }
+
 .spider .eye.right{
-    right:15px;
+    right:20px;/* made the eye bigger and removes spacing between eyes*/
 }
 .spider .eye.left{
-    left:15px;
+    left:20px;/* made the eye bigger and removes spacing between eyes*/
 }
 .spider .eye::after{
     background:#000;
@@ -52,11 +53,11 @@ border-radius: 60%; /* made the body more circular*/
 }
 .spider .legs{
     position:absolute;
-    bottom: -10%;
+    bottom: -5%;/* changed this so the legs fit together*/
     z-index:1;
 }
 .spider .legs .leg{
-    width:80px;
+    width:75px;
     height:40px;
     margin-top:-20px;
     border: 5px solid transparent;
