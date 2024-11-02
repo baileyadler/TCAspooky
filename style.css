@@ -5,9 +5,9 @@ html:hover .spider{
     top:-120%;
 }
 .spiderweb{
-    background-color: #fff;
-    width:2px;
-    height:200px;
+    background-color: rgb(204, 177, 177); /* changed color of the spiderweb line to gray*/
+    width:4px; /*made the line connecting to spider thicker */
+    height:300px; /*made the line connecting to spider longer */
     margin-left: 49px;
     transition:1s ease-in-out;
 }
@@ -24,7 +24,7 @@ width:100px;
 height:80px;
 background:#000;
 position:relative;
-border-radius: 50%;
+border-radius: 60%; /* made the body more circular*/
 }
 .spider .body .eye{
     width:33px;
@@ -34,7 +34,7 @@ border-radius: 50%;
     bottom:20px;
     border-radius:50%;
 }
-.spider .eye.right {
+.spider .eye.right{
     right:15px;
 }
 .spider .eye.left{
@@ -97,7 +97,7 @@ border-radius: 50%;
     0%, 40%, 100%{
         transform: translateX(0);
     }
-    45%, 95% {
+    45%, 95%{
         transform: translateX(-110%);
     }
 }
@@ -105,7 +105,8 @@ border-radius: 50%;
 0%, 100% {
     transform: translateY(0);
 }
+/*makes the swing reach farther down */
 50%{
-    transform: translateY(-20px);
+    transform: translateY(-200px);
 }
 }
