@@ -1,5 +1,5 @@
 html{
-    background-color: #ff785a;
+    background-color: #f1b5ec;/*changed color of background*/
 }
 html:hover .spider{
     top:-120%;
@@ -10,6 +10,7 @@ html:hover .spider{
     height:300px; /*made the line connecting to spider longer */
     margin-left: 49px;
     transition:1s ease-in-out;
+    box-shadow:30px 30px 30px #000;
 }
 .spider{
     position:absolute;
@@ -25,11 +26,12 @@ height:80px;
 background:#000000;
 position:relative;
 border-radius: 60%; /* made the body more circular*/
+box-shadow: 5px 10px 20px black; /*added box shadow*/
 }
 .spider .body .eye{
     width:33px;
     height:33px;
-    background: #e6eba3; /* changed the eye color */
+    background: #cfdb1f; /* changed the eye color */
     position:absolute;
     bottom:20px;
     border-radius:50%;
